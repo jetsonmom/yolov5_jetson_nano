@@ -12,24 +12,25 @@ uycgb
 ###### yolo 가상환경 만들기
 ``` bash
 uname -a
-wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh
+wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
 
-sudo chmod 755 Anaconda3-2023.03-Linux-x86_64.sh
+
+sudo chmod 755 Archiconda3-0.2.3-Linux-aarch64.sh
 ````
 
 ``` bash
  ls
 ````
 ###### 결과
-Archiconda3-0.2.3-Linux-aarch64.sh  Pictures
-Desktop                             Public
-Documents                           Templates
-Downloads                           Videos
-examples.desktop                    yolov8_4gb
-Music
+ldh@ldh-desktop:~$ ls
+Archiconda3-0.2.3-Linux-aarch64.sh  Downloads         Pictures   yolov5
+Desktop                            examples.desktop  Public
+docker_dli_run.sh                  Music             Templates
+Documents                          nvdli-data        Videos
+
 
 ``` bash
- ./Archiconda3-0.2.3-Linux-aarch64.sh 
+ ./Archiconda3-0.2.3-Linux-aarch64.sh
 ```
 ###### 실행 중 선택하라고 나온다.
 설치 프로그램 진행 방법
